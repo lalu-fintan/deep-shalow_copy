@@ -1,0 +1,4 @@
+shalow copy - means we store the some datas in the heap and  ref in the variable in stack.
+//deep copy - means we store all data in the heap.
+let obj = {name: "John", age: 30, city: "New York"}; //shallow copy
+let newObj = {...obj} // deep copy
